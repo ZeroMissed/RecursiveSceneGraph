@@ -8,4 +8,4 @@ When a Scene's update method is called, the scene should use recursion to update
 Complete the updateObject method in the Scene class, the updateComponent method in the Object class, and the updateSubComponent method in the Component class without using any loops. (hint: an input value of -1 should break the recursion)
 </h4>
 <br><br><br><br>
-<a href="https://github.com/league-level5/RecursiveSceneGraph_Solution
+<a href="https://github.com/league-level5/RecursiveSceneGraph_Solution">solution</a>
