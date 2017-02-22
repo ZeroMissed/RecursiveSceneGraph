@@ -12,7 +12,7 @@ public class Scene {
 		updateObject(sceneObjects.size() - 1);
 	}
 	
-	/**	Recursively updates all objects in the scene in reverse order
+	/**	Recursively updates all objects in the scene
 	 *  @param object element to start updating from 
 	 *  Precondition: -1 <= obj < sceneObjects.size()
 	 */
@@ -32,7 +32,7 @@ class Object {
 		updateComponent(attachedComponents.size() - 1);
 	}
 	
-	/**	Recursively updates all components attached to the object in reverse order
+	/**	Recursively updates all components attached to the object
 	 *  @param component element to start updating from 
 	 *  Precondition: -1 <= com < sceneObjects.size()
 	 */
@@ -67,7 +67,7 @@ class Component {
 		updateSubComponent(attachedComponents.size() - 1);
 	}
 	
-	/**	Recursively updates all sub components attached to the component in reverse order
+	/**	Recursively updates all sub components attached to the component
 	 *  @param sub component element to start updating from 
 	 *  Precondition: -1 <= com < sceneObjects.size()
 	 */
